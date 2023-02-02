@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "mixture_model_epsc"
+version = "0.1.0"
+description = ""
+authors = ["Pritish Patil <iampritishpatil@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.5"
+pymc3 = "*"
+numpy = "^1.19.1"
+scipy = "^1.5.2"
+pandas = "^1.1.0"
+jupyterlab = "^2.2.2"
+arviz = "*"
+pyinterval = "^1.2.0"
+python-box = "^5.2.0"
+PyYAML = "^5.4.1"
+rope = "^0.18.0"
+Munch = "^2.5.0"
+cython = "^0.29.21"
+
+#OASIS = {git = "https://github.com/j-friedrich/OASIS.git",  branch = "master"}
+oasis = {git = "https://github.com/j-friedrich/OASIS.git"}
+cvxpy = "^1.1.10"
+CVXOPT = "1.2.5"
+statsmodels = "^0.12.2"
+altair = "^4.1.0"
+numba = "^0.52.0"
+multiprocessing_logging = "^0.3.1"
+xlrd = "^2.0.1"
+openpyxl = "^3.0.7"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

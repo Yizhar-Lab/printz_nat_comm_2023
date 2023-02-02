@@ -1,0 +1,13 @@
+#BSUB -q new-medium
+#BSUB -J New_MCMC_class_run_v2.1[1-1000]%1
+#BSUB -o res.%J
+#BSUB -e res.%J
+#BSUB -n 1
+#BSUB -R "rusage[mem=2000]" 
+
+## this makes it auto reques jobs with exit code 1
+#BSUB -Q 1
+
+
+
+python job_notebook_new.py $LSB_JOBINDEX
