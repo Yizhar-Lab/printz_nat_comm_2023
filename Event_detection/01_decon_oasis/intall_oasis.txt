@@ -1,0 +1,4 @@
+pip install git+https://github.com/j-friedrich/OASIS.git
+pip install multiprocessing_logging
+pip install python-box
+
