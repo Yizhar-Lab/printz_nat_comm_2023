@@ -1,0 +1,1 @@
+To plot the overlaid connectivity maps of all cells for one cell type, load the corresponding .mat file of that cell type located in this folder, and then run the .m code file.

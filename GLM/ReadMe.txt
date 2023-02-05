@@ -1,0 +1,1 @@
+To plot the GLM data, load the .mat data file and then run the ConnCode_GLM.m code file.

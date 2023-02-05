@@ -1,0 +1,1 @@
+To plot the data, load all the .mat data files and then run the .m code file.
